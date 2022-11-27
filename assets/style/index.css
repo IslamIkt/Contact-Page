@@ -1,0 +1,75 @@
+@import "./reset.css";
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: min(100%-30px, 1080);
+    margin-inline: auto;
+}
+
+body{
+    background-color: #F1E3D3;
+}
+
+h2{
+    margin-top: 70px;
+}
+
+.inputs{
+    width: 580px;
+    height: 80px;
+    background-color:#F2D0A9;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 10px
+}
+
+.add-contact{
+    background-color: #8E7DBE;
+    width: 130px;
+    margin-left: 5px;
+}
+
+.contact-info{
+    background-color: #F1E3D3;
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.add-contact, .contact-info{
+    height: 40px;
+    border-radius: 10px;
+}
+
+.grid{
+    width: 510px;
+    height: 930px;
+    margin-top: 20px;
+    background-color: #F2D0A9;
+    padding: 20px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px; 
+    grid-template-rows:140px 140px 140px 140px 140px 140px;
+    
+    gap: 10px; 
+}
+
+.cell{
+    width: 150px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F1E3D3;
+}
+
+.border{
+    border-radius: 5px;
+    border-color: #D88C9A;
+}
